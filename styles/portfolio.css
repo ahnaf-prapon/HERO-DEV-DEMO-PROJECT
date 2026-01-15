@@ -6,21 +6,66 @@
     box-sizing: border-box;
 
 }
+
+/* Shared Style */
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
 
-.NavigationBar{
+nav .NavigationBar{
 
     display:flex;
-
+    gap:51px;
+    align-items: center;
 
 }
+
+nav .NavigationBar a{
+
+    font-size:20px;
+    color: #474747;
+    
+
+}
+
+.logo h2{
+
+    font-size: 45px;
+    font-weight: 900px;
+
+}
+
+.btn{
+
+    background-color: #FD6E0A;
+    border: none;
+    padding: 18.28px 35px 19.3px 36px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    
+
+}
+
+/* Main Style */
 
 header{
 
     background-color: #FFF8F3;
+    padding-top: 50px;
     
+
+}
+
+nav {
+
+    width: 74%;
+    max-width: 1140px;
+    margin: 0px auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
